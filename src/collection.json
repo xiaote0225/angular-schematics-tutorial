@@ -1,9 +1,10 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "angular-schematics-tutorial": {
-      "description": "A blank schematic.",
-      "factory": "./angular-schematics-tutorial/index#angularSchematicsTutorial"
+    "component": {
+      "description": "创建一个通用angular component模板文件.",
+      "factory": "./component/index#genComponent",
+      "schema": "./component/schema.json"
     }
   }
 }
