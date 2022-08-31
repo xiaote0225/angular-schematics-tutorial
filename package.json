@@ -1,6 +1,6 @@
 {
-  "name": "angular-schematics-tutorial",
-  "version": "0.0.0",
+  "name": "angular-schematics-tutorial-waxu",
+  "version": "0.0.1",
   "description": "A blank schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -22,5 +22,8 @@
     "@types/node": "^14.15.0",
     "@types/jasmine": "~4.0.0",
     "jasmine": "^4.0.0"
+  },
+  "ng-update": {
+    "migrations": "./src/migration.json"
   }
 }
